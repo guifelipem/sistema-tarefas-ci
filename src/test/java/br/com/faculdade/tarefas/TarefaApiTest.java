@@ -133,6 +133,6 @@ class TarefaApiTest {
                                 }
                                 """)
                 )
-                .andExpect(status().isOk());
+                .andExpect(status().isNotFound());
     }
 }
