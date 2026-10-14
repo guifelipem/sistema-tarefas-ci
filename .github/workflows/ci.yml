@@ -21,17 +21,14 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Dar permissão ao Maven Wrapper
-        run: chmod +x mvnw
-
       - name: Build
-        run: ./mvnw clean compile
+        run: mvn -B clean compile
 
       - name: Testes
-        run: ./mvnw test
+        run: mvn -B test
 
       - name: Gerar JAR
-        run: ./mvnw package -DskipTests
+        run: mvn -B package -DskipTests
 
       - name: Salvar artefato
         uses: actions/upload-artifact@v4
