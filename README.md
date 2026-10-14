@@ -2,6 +2,17 @@
 
 Projeto simples em Spring Boot desenvolvido para o Trabalho 5 de Cloud Computing e DevOps Avançado, com o objetivo de demonstrar um pipeline de Integração Contínua (CI).
 
+Alunos: 
+Felype Augusto Dos Santos Silva - RA: 14537
+
+Gabriel de Abreu da Silva - RA: 14525
+
+Gabrielle Bonini Barbosa - RA: 14506
+
+Guilherme Felipe de Morais - RA: 5608
+
+Larissa Fernanda Oliveira da Silva - RA: 14536
+
 ## Tecnologias
 
 - Java 17
